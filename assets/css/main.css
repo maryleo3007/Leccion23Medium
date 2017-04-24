@@ -1,0 +1,132 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: content-box;
+}
+.header-medium{
+  height: 50px;
+  width: 80%;
+  margin-left: 10%;
+  margin-top: 1%;
+}
+.header-logo{
+  display: inline-block;
+}
+.header-logo span{
+  font-size: 200%;
+}
+.header-social{
+  display: inline-block;
+  letter-spacing: 0.4em;
+  margin: 0px 15px 0px 15px;
+  position: absolute;
+  top: 18px;
+  color: rgba(0,0,0,.44);
+}
+.follow{
+  background: white;
+  color: #1C9963;
+  border-radius: 15px;
+  border: solid 1.5px #1C9963;
+  padding: 2px 8px;
+}
+.header-social span{
+  font-size: 120%;
+}
+.header-singin{
+  display: inline-block;
+  float: right;
+}
+.header-height-separete{
+  display: inline-block;
+  height: 30px;
+  background-color: grey;
+  width: 1px;
+  margin: 0px 10px 0px 10px;
+}
+.header-singin span a{
+  text-decoration: none;
+  color: #1C9963;
+  position: absolute;
+  top: 18px;
+  right: 0px;
+  width: 15%
+}
+.content-general{
+  width: 60%;
+  margin-left: 20%;
+  margin-right: 350px;
+  margin-top: 3%;
+  height: 500px;;
+}
+.photo-poster{
+  display: inline-block;
+  margin-right: 2%;
+}
+.photo-poster img{
+  border-radius: 100%;
+}
+.information-poster{
+  display: inline-block;
+}
+.name-poster{
+  display: inline-block;
+  margin-bottom: 1.5%;
+  display: auto;
+}
+.name-poster a{
+  text-decoration: none;
+  color: rgba(0,0,0,.8);
+  font-family: 'Roboto Condensed', sans-serif;
+}
+.header-poster{
+  display: inline-block;
+}
+.job-poster{
+    color: rgba(0,0,0,.44);
+    font-size: 14px;
+}
+.job-poster p{
+  margin: 0px;
+  padding: 0px;
+  font-family: sans-serif;
+}
+.article-post{
+  margin-top: 3%;
+}
+.article-post h1{
+  font-family: 'Asar', serif;
+  font-size: 2.5em;
+
+}
+.article-post p{
+  font-family: 'EB Garamond', serif;
+  color: grey;
+  font-size: 24px;
+  text-align: justify;
+}
+
+footer{
+  position: absolute;
+  height: 70px;
+  width: 60%;
+  margin-left: 18%;
+  margin-right: 18%;
+  bottom: 0;
+}
+.footer-description{
+  display: inline-block;
+  font-family: 'Roboto Condensed', sans-serif;
+  color: grey;
+}
+.footer-description button{
+  position: absolute;
+  right: 0px;
+}
+.button-footer{
+  background: #088A4B;
+  border-radius: 20px;
+  padding: 5px;
+  color: white;
+  border: none;
+}
